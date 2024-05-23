@@ -21,6 +21,8 @@
 
 #### DBConnector
 
+![image](https://github.com/duragonz/portfolio/assets/57695329/7b2426e5-2843-41d7-af1e-4155a34475ad)
+
 * DbDemultiplexer : 로직에서 DB 접근을 위한 dbBroker thread 생성 및 할당
   * socket bind시 할당/ unbind시 해제
 * DbBroker
