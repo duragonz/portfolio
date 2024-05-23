@@ -34,6 +34,7 @@
 
 * StoredProcedure 샘플 
 * _generated : QueryBuilder에서 생성된 csharp 생성 코드 샘플
+  * QueryBuilder : DB 처리에 사용되는 SP주석에 특별한 주석을 삽입하고 이를 이용해서 SP 처리 결과를 자동으로 생성하는 툴
 
 #### csharpSocket
 
