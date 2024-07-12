@@ -544,7 +544,7 @@ namespace DB_Model
 }
 ```
 - Result - Admin Page(razor)
-```java
+```html
 using System;
 using System.Collections.Generic;
 using System.Data;
