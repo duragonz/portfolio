@@ -8,7 +8,7 @@
 - 수정 작업시, Comment를 활용하여 작업간 호환성 제공
 
 ## 구성
-![[_images/Pasted image 20240712183803.png]]
+![[assets/image_20240712183803.png]]
 
 ## 설정 및 동작
 - 설정
