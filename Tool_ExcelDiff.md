@@ -1,5 +1,9 @@
 ## Excel Diff Tool
 
+### 목표
+- Excel 데이터에 대한 Diff 및 Merge를 할 수 있는 Tool 제공
+- 프로젝트 구성에 맞는 CustomTool을 위한 기본 기능 구성
+
 ### 구성
 - 총 3개의 창으로 구성되어 있습니다.
 - Main(FolderDiff)
