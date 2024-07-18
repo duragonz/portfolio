@@ -1,11 +1,19 @@
 ## 목표
 - DB 테이블을 이용해 게임서버에서 사용하는 DB 로딩 로직 자동 생성
-	- Async로 동작되는 DB Query의 경우 Table 별로 유사한 패턴이 있음.
+	- 기본 쿼리 자동 생성 (Select, Update, Insert, Upsert, Delete)
+ 	- Pk 확인을 통해 Param 설정
+ 	- Async로 동작되는 Query Class 생성.
+  	- DB의 종류에 따라 생성 패턴 분리
 - DB 테이블을 이용해 AdminTool 페이지 자동 생성
 	- AdminTool 페이지도 Table 별로 유사한 패턴이 있음.
 	- AdminTool 페이지 DB 로직 자동 생성
+ 	- DB의 종류에 따른 페이지 생성 분리
+  		- UserDB는 Data Edit 기능
+    		- MetaDB는 수정불가
+  		- LogDB는 기간 검색을 위한 기간 설정 기능
 - 최초 생성시 반복되는 작업을 최소화 하여 작업 효율 증가.
 - 수정 작업시, Comment를 활용하여 작업간 호환성 제공
+	- 삭제할 DBTable, Column에 대한 호환성 처리
 
 ## 구성
 ![image](./assets/image_20240712183803.png)
