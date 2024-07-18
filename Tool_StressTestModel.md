@@ -18,6 +18,7 @@
 - Logic을 분리하여 BotAgent에서 사용될 수 있도록 설계 
 - Client의 MetaData 구성
 - 단일 클라이언트 기능 수행
+
 ![image](./assets/image_20240718115635.png)
 
 ### StressTest Model 
