@@ -18,7 +18,7 @@
 - Logic을 분리하여 BotAgent에서 사용될 수 있도록 설계 
 - Client의 MetaData 구성
 - 단일 클라이언트 기능 수행
-![image](./_images/image_20240718115635.png)
+![image](./assets/image_20240718115635.png)
 
 ### StressTest Model 
 - Test 환경 설정
@@ -40,7 +40,7 @@
 - 수행 결과 리포트
 	- Server에서는 설계된 ServerLog 기록
 	- BotClient에서는 설계된 수행 기록을 테스트 종료시 ClientLog에 기록
-![image](./_images/image_20240718110706.png)
+![image](./assets/image_20240718110706.png)
 
 
 ### TODO
